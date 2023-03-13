@@ -1,0 +1,21 @@
+<p>geometri works!</p>
+
+
+<div>
+  <img alt="item" [src]="geometriImageUrl">
+</div>
+
+
+<div>
+  <input [(ngModel)]= "sideA"> 
+  <p>Length of side A: {{sideA}}</p>
+</div>
+ 
+
+<div>
+  <button [class] = 'styling'>Calculate perimeter and areal</button>
+</div>
+<div>
+  <p>Perimeter {{perimeter}}</p>
+  <p>Areal {{areal}}</p>
+</div>
